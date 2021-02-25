@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double a, b, productOfNumbers;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    productOfNumbers = a * b;  
+
+    cout << "Product = " << productOfNumbers;    
+    
+    return 0;
+}
